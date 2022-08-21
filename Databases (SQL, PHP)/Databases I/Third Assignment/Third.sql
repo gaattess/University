@@ -1,0 +1,87 @@
+--ERWTHMA 1--
+SELECT
+  ENAME "ΕΠΩΝΥΜΟ",
+  DEPTNO "ΤΜΗΜΑ",
+  CONCAT(COMM, " €") "ΠΡΟΜΗΘΕΙΑ"
+FROM
+  EMP
+WHERE
+  DEPTNO = 10
+ORDER BY
+  COMM;
+  
+--ERWTHMA 2--
+SELECT
+  ENAME "ΕΠΩΝΥΜΟ",
+  JOB "ΘΕΣΗ",
+  CONCAT(SAL, " €") "ΜΗΝΙΑΙΕΣ ΑΠΟΔΟΧΕΣ"
+FROM
+  EMP
+ORDER BY
+  JOB ASC,
+  SAL DESC;
+  
+--ERWTHMA 3--
+SELECT
+  DEPTNO "ΤΜΗΜΑ",
+  CONCAT(FORMAT(AVG(SAL), 0), "€") AS "ΜΕΣΟΣ ΟΡΟΣ ΜΙΣΘΟΥ",
+  COUNT(*)
+FROM
+  EMP
+GROUP BY
+  DEPTNO
+HAVING
+  COUNT(*) >= 1;
+  
+--ERWTHMA 4--
+SELECT
+  DEPTNO "ΤΜΗΜΑ",
+  FORMAT(AVG(DATEDIFF(CURRENT_DATE(), HIRE) / 365), 1) "ΠΡΟΫΠΗΡΕΣΙΑ (ΣΕ ΕΤΗ)"
+FROM
+  EMP
+GROUP BY
+  DEPTNO;
+  
+--ERWTHMA 5--
+SELECT
+  PROJ.DESCRIPTION "ΕΡΓΟ",
+  EMP.ENAME "ΕΠΩΝΥΜΟ",
+  EMP.JOB "ΘΕΣΗ"
+FROM
+  EMP,
+  PROJ,
+  ASSIGN
+WHERE
+  PROJ.PROJ_CODE = ASSIGN.PROJ_CODE
+  AND ASSIGN.EMPNO = EMP.EMPNO
+ORDER BY
+  DESCRIPTION,
+  JOB;
+  
+--ERWTHMA 6--
+SELECT
+  DNAME AS "DEPARTMENT",
+  E2.ENAME AS "MANAGER",
+  E1.ENAME AS "EMPLOYEE"
+FROM
+  EMP E1,
+  EMP E2,
+  DEPT
+WHERE
+  E1.MGR = E2.EMPNO
+  AND E1.DEPTNO = DEPT.DEPTNO
+ORDER BY
+  DNAME,
+  E1.ENAME;
+  
+--ERWTHMA 7--
+SELECT
+  ENAME,
+  JOB,
+  LOC
+FROM
+  EMP,
+  DEPT
+WHERE
+  EMP.DEPTNO = DEPT.DEPTNO
+  AND DNAME = "RESEARCH"; 
