@@ -1,1 +1,1 @@
-Android mobile app using Kotlin and UI developed with XML
+An android music player for mobiles, using Kotlin and a UI developed with XML.
