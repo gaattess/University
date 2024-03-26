@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/lavender"
+        android:fontFamily="@font/noto_sans_math_regular"
+        android:text="Καλωσήρθατε στην εφαρμογή μας"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_bkg"
+        android:fontFamily="@font/noto_sans_math_regular"
+        android:text="Είσοδος"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introMessageText" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edittext_bkg"
+        android:fontFamily="@font/noto_sans_math_regular"
+        android:text="Εγγραφή"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introMessageText"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <EditText
+        android:id="@+id/introMessageText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edittext_bkg"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/noto_sans_math_regular"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:justificationMode="inter_word"
+        android:text="Καλώς ήρθατε στην εκπαιδευτική εφαρμογή Quiz App για τους μαθητές της Β' Γυμνασίου!\nΗ εφαρμογή σας δίνει την δυνατότητα να εξελίξετε τις γνώσεις σας στον συναρπαστικό κόσμο των μαθηματικών.\n\nΗ εφαρμογή περιλαμβάνει:\n\n▪Ποικίλες κατηγορίες ερωτήσεων που καλύπτουν ένα μέρος της ύλης των μαθηματικών της Β' Γυμνασίου.\n▪Συναρπαστικά και διαδραστικά quiz που θα σας βοηθήσουν να εμβαθύνετε στις μαθηματικές έννοιες.\n▪Αξιολογήσεις για να παρακολουθείτε την πρόοδό σας και να βελτιώνετε την απόδοσή σας.\n▪Εύκολη πλοήγηση και φιλικό περιβάλλον που είναι κατάλληλο για μαθητές."
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

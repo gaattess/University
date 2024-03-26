@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dialog_login.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:id="@+id/login_email"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        android:hint="Email"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawableTint="@color/lavender"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edittext_bkg"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bkg"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/lavender"
+        android:hint="Κωδικός Πρόσβασης"
+        android:inputType="textPassword"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Είσοδος"
+        android:textSize="18sp"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
