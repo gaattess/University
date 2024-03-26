@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info">•In the calendar section, you can switch between the previous and the next dates.\n•In the mail section, you can send a new e-mail and see your unread e-mails.\n•In the alarm section, you can set a new alarm.\n•In the phone section, you can see your call log.\n•In the messages section, you can send a new sms and see your unread sms.\n•In the contacts section, you can see your phones contacts.\n•In the weather section, you can type a city and see its current weather.\n•In the traffic section, you can type 2 addresses and see the current traffic between them.\n•In the news section, you can see Greece\'s current trending news.\n•In the lists section, you can type out a list for you to read later.\n•In the remote section, you can choose between opening and closing your lights and changing the settings of your air-conditioning unit.</string>
+</resources>

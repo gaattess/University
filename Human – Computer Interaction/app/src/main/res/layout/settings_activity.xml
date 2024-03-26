@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ECECEC"
+    tools:context=".Settings">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings and Personalization"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnBrightness"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Brightness"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+
+        <Button
+            android:id="@+id/btnAirplaneMode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Airplane Mode"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+
+        <Button
+            android:id="@+id/btnAutoRotate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Auto Rotate"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnWiFi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="WiFi"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+
+        <Button
+            android:id="@+id/btnSound"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Sound"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+
+        <Button
+            android:id="@+id/btnBluetooth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Bluetooth"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Location"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+
+        <Button
+            android:id="@+id/btnDataUsage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Data Usage"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+
+        <Button
+            android:id="@+id/btnBatterySaver"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Battery Saver"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:outlineProvider="none" />
+    </LinearLayout>
+
+</LinearLayout>

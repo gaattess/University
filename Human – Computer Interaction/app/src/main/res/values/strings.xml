@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VirtualAssistant</string>
+    <string name="calendar">Calendar</string>
+    <string name="june_10">June 10</string>
+    <string name="this_is_a_message">This is a Message</string>
+    <string name="_10_00">10:00</string>
+    <string name="__10_00">10:00</string>
+    <string name="this_is_a_message1">This is a Message</string>
+    <string name="june_12">June 12</string>
+    <string name="message">Message</string>
+    <string name="_8_00">8:00</string>
+    <string name="john_grady_cole">John Grady Cole</string>
+    <string name="user_icon">User Icon</string>
+    <string name="june_11">June 10</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="contact_image">Contact Image</string>
+    <string name="info">•In the calendar section, you can switch between the previous and the next dates.\n•In the mail section, you can send a new e-mail and see your unread e-mails.\n•In the alarm section, you can set a new alarm.\n•In the phone section, you can see your call log.\n•In the messages section, you can send a new sms and see your unread sms.\n•In the contacts section, you can see your phones contacts.\n•In the weather section, you can type a city and see its current weather.\n•In the traffic section, you can type 2 addresses and see the current traffic between them.\n•In the news section, you can see Greece\'s current trending news.\n•In the lists section, you can type out a list for you to read later.\n•In the remote section, you can choose between opening and closing your lights and changing the settings of your air-conditioning unit.</string>
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/listsMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lists"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/listsIcon"
+        app:layout_constraintStart_toStartOf="@+id/listsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/listsIcon" />
+
+    <TextView
+        android:id="@+id/alarmMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/alarmIcon"
+        app:layout_constraintStart_toStartOf="@+id/alarmIcon"
+        app:layout_constraintTop_toBottomOf="@+id/alarmIcon" />
+
+    <TextView
+        android:id="@+id/mailMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/emailIcon"
+        app:layout_constraintStart_toStartOf="@+id/emailIcon"
+        app:layout_constraintTop_toBottomOf="@+id/emailIcon" />
+
+    <TextView
+        android:id="@+id/calendarMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendar"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/calendarIcon"
+        app:layout_constraintStart_toStartOf="@+id/calendarIcon"
+        app:layout_constraintTop_toBottomOf="@+id/calendarIcon" />
+
+    <TextView
+        android:id="@+id/remoteMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remote"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/remoteIcon"
+        app:layout_constraintStart_toStartOf="@+id/remoteIcon"
+        app:layout_constraintTop_toBottomOf="@+id/remoteIcon" />
+
+    <TextView
+        android:id="@+id/contactsMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/contactsIcon"
+        app:layout_constraintStart_toStartOf="@+id/contactsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/contactsIcon" />
+
+    <TextView
+        android:id="@+id/messagesMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/messagesIcon"
+        app:layout_constraintStart_toStartOf="@+id/messagesIcon"
+        app:layout_constraintTop_toBottomOf="@+id/messagesIcon" />
+
+    <TextView
+        android:id="@+id/phoneMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/callsIcon"
+        app:layout_constraintStart_toStartOf="@+id/callsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/callsIcon" />
+
+    <TextView
+        android:id="@+id/newsMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/newsIcon"
+        app:layout_constraintStart_toStartOf="@+id/newsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/newsIcon" />
+
+    <TextView
+        android:id="@+id/weatherMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/weatherIcon"
+        app:layout_constraintStart_toStartOf="@+id/weatherIcon"
+        app:layout_constraintTop_toBottomOf="@+id/weatherIcon" />
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/introText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/introText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to our Virtual Assistant!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/calendarIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introText"
+        app:srcCompat="@drawable/calendar_icon" />
+
+    <ImageView
+        android:id="@+id/emailIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/alarmIcon"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/calendarIcon"
+        app:layout_constraintTop_toBottomOf="@+id/introText"
+        app:srcCompat="@drawable/mail_icon" />
+
+    <ImageView
+        android:id="@+id/alarmIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introText"
+        app:srcCompat="@drawable/alarmclock_icon" />
+
+    <ImageView
+        android:id="@+id/callsIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarMainText"
+        app:srcCompat="@drawable/calls_icon" />
+
+    <ImageView
+        android:id="@+id/messagesIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/contactsIcon"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/callsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/mailMainText"
+        app:srcCompat="@drawable/messages_icon" />
+
+    <ImageView
+        android:id="@+id/contactsIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmMainText"
+        app:srcCompat="@drawable/contacts_icon" />
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneMainText"
+        app:srcCompat="@drawable/weather_icon" />
+
+    <ImageView
+        android:id="@+id/trafficIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/newsIcon"
+        app:layout_constraintStart_toEndOf="@+id/weatherIcon"
+        app:layout_constraintTop_toBottomOf="@+id/messagesMainText"
+        app:srcCompat="@drawable/traffic_icon" />
+
+    <ImageView
+        android:id="@+id/newsIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactsMainText"
+        app:srcCompat="@drawable/news_icon" />
+
+    <ImageView
+        android:id="@+id/listsIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weatherMainText"
+        app:srcCompat="@drawable/lists_icon" />
+
+    <ImageView
+        android:id="@+id/remoteIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newsMainText"
+        app:srcCompat="@drawable/remotte_icon" />
+
+    <TextView
+        android:id="@+id/trafficMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traffic"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/trafficIcon"
+        app:layout_constraintStart_toStartOf="@+id/trafficIcon"
+        app:layout_constraintTop_toBottomOf="@+id/trafficIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
