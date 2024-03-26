@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "digg"
+version = "0.1.0"
+description = ""
+authors = ["Spyros Roum <spyros.roum@posteo.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pm4py = "2.7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

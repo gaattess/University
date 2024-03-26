@@ -1,0 +1,1 @@
+Assignment implementing an ontology using the Protégé tool.
