@@ -1,0 +1,1 @@
+"The purpose of this exercise is to familiarize you with the basic techniques used to create coincidence table, posting lists, vector space model and finding similarity between two documents in python."
