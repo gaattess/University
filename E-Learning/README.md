@@ -10,7 +10,9 @@ Finally, multiple students can play the quiz on one device, as there is an optio
 The app was implemented in android studio (2022.3.1) and xml was used for graphics and kotlin (1.9.0) for coding. The app has been tested on android emulators and on physical phones and works the same way.
 
  ![image](https://github.com/user-attachments/assets/17f840fb-0cc6-4ba1-83a5-1661a67c3ac8)
+ 
  - Introductory screen
+
 ![image](https://github.com/user-attachments/assets/4e3f23cc-b7c8-43db-883c-c8d9559e7418)
 ![image](https://github.com/user-attachments/assets/f648e9be-67a6-4998-b622-c4c12bc394d6)
 ![image](https://github.com/user-attachments/assets/17c38fc6-704b-446b-8a5e-53a0b5d7d706)
@@ -18,23 +20,28 @@ The app was implemented in android studio (2022.3.1) and xml was used for graphi
 ![image](https://github.com/user-attachments/assets/1dbcea44-995b-45e2-8b80-9fefcf58a8c3)
 
 - Main Screen
+
   ![image](https://github.com/user-attachments/assets/96640d4a-d6d3-4c8e-8975-243f06735c0c)
 
 - Exiting
+
   ![image](https://github.com/user-attachments/assets/74280423-b6ff-47ee-b235-c7c2924a8bb2)
 
 - FAQ
+
 ![image](https://github.com/user-attachments/assets/00b4be6c-9397-440d-86ab-bf7acb012374)
 ![image](https://github.com/user-attachments/assets/48dada4c-a038-4ac5-82fe-8fe386469cfc)
 ![image](https://github.com/user-attachments/assets/8397834d-e527-4302-b0ab-4c8f48f2c498)
 ![image](https://github.com/user-attachments/assets/d015832b-1dd5-4880-b910-3aea1af22e67)
 
 - Theory
+
 ![image](https://github.com/user-attachments/assets/d86dc142-0931-41e8-8a79-224304334eac)
 ![image](https://github.com/user-attachments/assets/2347d476-8085-4644-a7a1-86de2b2d68c0)
 ![image](https://github.com/user-attachments/assets/e7452443-a321-4226-b343-8cdf85677020)
 
 - Quiz
+
 ![image](https://github.com/user-attachments/assets/73e29278-34c6-416d-b8e2-119a7bcd9caf)
 ![image](https://github.com/user-attachments/assets/0b3c0c9d-fd10-4e47-a4db-96247f1680ea)
 ![image](https://github.com/user-attachments/assets/e9fff86f-fbc0-41e2-b97e-8f044f82ec28)
@@ -44,6 +51,7 @@ The app was implemented in android studio (2022.3.1) and xml was used for graphi
 ![image](https://github.com/user-attachments/assets/1184e38d-51da-4440-bed7-2bc32757c829)
 
 - Statistics
+
 ![image](https://github.com/user-attachments/assets/2060a580-b26f-4e5b-b575-11fc2cf73955)
 ![image](https://github.com/user-attachments/assets/d90a8681-4e51-404c-a75c-034698662306)
 
