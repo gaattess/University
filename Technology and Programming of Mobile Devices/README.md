@@ -1,6 +1,7 @@
 An android music player for mobiles, using Kotlin and a UI developed with XML.
 
 - Application description
+
 In the context of the course "Technology & Programming of Mobile Devices", we develop a mobile application that will play music files. Using the Android Studio tool (version Flamingo) and the Kotlin language (version 1.8.21) for coding, we managed to build a fully functional Music Player application, which could be compared to others of its kind.
 
 - Home Screen
