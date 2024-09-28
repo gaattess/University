@@ -56,6 +56,7 @@ The app was implemented in android studio (2022.3.1) and xml was used for graphi
 ![image](https://github.com/user-attachments/assets/d90a8681-4e51-404c-a75c-034698662306)
 
 - Database
+
 For communication with the base we use the "Room" library. Room is an abstraction layer on top of SQLite where it makes it easy to store and read data. 
 We have defined some DAOs (data access objects) which have the queries we need to get data from the database, but also to import new data or update old data.
 Beyond the DAOs we have defined Entities which represent the database rows in the code and make it easy to read the data we want in an object-oriented way.
