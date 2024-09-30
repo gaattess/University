@@ -6,8 +6,16 @@ The app contains user registration and login menus to better personalize and org
 There is no timer in the quizzes, as the app is not designed to "force" the student to solve the problem in a certain amount of time, but to develop their knowledge and strive until they complete each chapter of the app. By using the statistics, he can see which chapter he was "weak" in and focus on that, so that there are no "gaps" in the material of such a basic course.
 For potential questions on the functioning of the app, there is a FAQ section for questions such as the order of starting the quiz, success, etc.
 Finally, multiple students can play the quiz on one device, as there is an option to log in with each student's data separately, and their data is stored separately.
+
+- Database
+
+For communication with the base we use the "Room" library. Room is an abstraction layer on top of SQLite where it makes it easy to store and read data. 
+We have defined some DAOs (data access objects) which have the queries we need to get data from the database, but also to import new data or update old data.
+Beyond the DAOs we have defined Entities which represent the database rows in the code and make it easy to read the data we want in an object-oriented way.
+
 - The application in detail
 The app was implemented in android studio (2022.3.1) and xml was used for graphics and kotlin (1.9.0) for coding. The app has been tested on android emulators and on physical phones and works the same way.
+
 
  ![image](https://github.com/user-attachments/assets/17f840fb-0cc6-4ba1-83a5-1661a67c3ac8)
  
@@ -55,8 +63,4 @@ The app was implemented in android studio (2022.3.1) and xml was used for graphi
 ![image](https://github.com/user-attachments/assets/2060a580-b26f-4e5b-b575-11fc2cf73955)
 ![image](https://github.com/user-attachments/assets/d90a8681-4e51-404c-a75c-034698662306)
 
-- Database
 
-For communication with the base we use the "Room" library. Room is an abstraction layer on top of SQLite where it makes it easy to store and read data. 
-We have defined some DAOs (data access objects) which have the queries we need to get data from the database, but also to import new data or update old data.
-Beyond the DAOs we have defined Entities which represent the database rows in the code and make it easy to read the data we want in an object-oriented way.
