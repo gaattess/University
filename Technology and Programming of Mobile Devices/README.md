@@ -14,4 +14,4 @@ In the context of the course "Technology & Programming of Mobile Devices", we de
 ![image](https://github.com/user-attachments/assets/6e25238d-34da-4b6f-8230-b8713b9eacad)
 ![image](https://github.com/user-attachments/assets/536600a2-b809-43cd-854f-fa18e4bffc01)
 
-## The app also works in the background, continuing to play the songs that have been selected.
+### The app also works in the background, continuing to play the songs that have been selected.
