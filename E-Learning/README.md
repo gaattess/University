@@ -1,7 +1,11 @@
 Educational mobile app using Kotlin and XML for the UI design.
+
 - Introduction
+
 The application developed for the course "E-learning" is an educational quiz, which contains the theory and exercises of the 2nd grade mathematics, in order to review and learn a part of the book. The "QuizApp" mobile application is intended for students in the 2nd grade, or older students, as younger students may not have the necessary knowledge to complete the exercises. 
+
 - In summary, the app
+
 The app contains user registration and login menus to better personalize and organize the educational content. There are three main parts of the app, the theory, which contains the material from chapters 1 and 2 of the book (8 sections), 77 multiple choice, true/false and matching questions, and statistics per completed chapter.  
 There is no timer in the quizzes, as the app is not designed to "force" the student to solve the problem in a certain amount of time, but to develop their knowledge and strive until they complete each chapter of the app. By using the statistics, he can see which chapter he was "weak" in and focus on that, so that there are no "gaps" in the material of such a basic course.
 For potential questions on the functioning of the app, there is a FAQ section for questions such as the order of starting the quiz, success, etc.
