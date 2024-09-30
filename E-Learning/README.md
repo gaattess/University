@@ -14,6 +14,7 @@ We have defined some DAOs (data access objects) which have the queries we need t
 Beyond the DAOs we have defined Entities which represent the database rows in the code and make it easy to read the data we want in an object-oriented way.
 
 - The application in detail
+
 The app was implemented in android studio (2022.3.1) and xml was used for graphics and kotlin (1.9.0) for coding. The app has been tested on android emulators and on physical phones and works the same way.
 
 
