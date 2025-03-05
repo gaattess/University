@@ -1,0 +1,1 @@
+# Analysis of warehouse management information system using WBS, scheduling with Gant diagram and development approach using Scrum in MS Project.
